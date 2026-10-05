@@ -1,0 +1,13 @@
+{
+  "name": "breach-coach",
+  "version": "1.0.0",
+  "description": "AI Breach Coach - Cybersecurity advisor for Mexican citizens",
+  "main": "src/index.html",
+  "scripts": {
+    "dev": "python3 -m http.server 3000",
+    "build": "echo 'Static site, no build needed'"
+  },
+  "keywords": ["cybersecurity", "breach", "mexico"],
+  "author": "Andrea González",
+  "license": "MIT"
+}

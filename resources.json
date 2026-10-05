@@ -1,0 +1,206 @@
+{
+  "threats": {
+    "identity_theft": {
+      "type": "Robo de Identidad",
+      "severity": "URGENTE",
+      "icon": "🚨",
+      "description": "Alguien está usando tu nombre, fotos o información personal sin autorización",
+      "actions": [
+        {
+          "time": "HOY",
+          "step": "Denuncia en redes sociales: reporta el perfil falso en TikTok, Instagram, Facebook como 'suplantación de identidad'",
+          "resource": "Cada plataforma tiene un formulario de reporte. En TikTok: menú → reportar → identidad falsa"
+        },
+        {
+          "time": "HOY",
+          "step": "Verifica tus cuentas activas: cambia contraseñas de todas tus redes y email principal desde un dispositivo seguro",
+          "resource": "Usa contraseñas fuertes (mayúsculas + números + símbolos, 12+ caracteres)"
+        },
+        {
+          "time": "Esta semana",
+          "step": "Denuncia en Fiscalía: ve a fiscalia.gob.mx o llama 088 para reportar el robo de identidad",
+          "resource": "Necesitarás: nombre, fotos, links a perfiles falsos"
+        },
+        {
+          "time": "Esta semana",
+          "step": "Revisa tu historial de crédito: entra a buró de crédito (asnef.org.mx) para ver si hay cuentas fraudulentas",
+          "resource": "Tienes derecho a 1 reporte gratuito al año"
+        },
+        {
+          "time": "Próximas semanas",
+          "step": "Monitorea tu nombre: busca Google Alerts para tu nombre + apellido para detectar nuevos perfiles",
+          "resource": "google.com/alerts"
+        }
+      ]
+    },
+    "fraud": {
+      "type": "Fraude (GoFundMe, donaciones, estafa económica)",
+      "severity": "URGENTE",
+      "icon": "💰",
+      "description": "Alguien está usando tu identidad para recaudar dinero o hacer transacciones",
+      "actions": [
+        {
+          "time": "HOY (próximas 2 horas)",
+          "step": "Reporta a la plataforma: en GoFundMe/PayPal/Stripe, denuncia la campaña como fraude. Incluye tu ID y prueba de que eres tú.",
+          "resource": "GoFundMe: trust@gofundme.com"
+        },
+        {
+          "time": "HOY",
+          "step": "Congela donaciones: si la plataforma aún no bloqueó el dinero, solicita congela inmediata de fondos",
+          "resource": "Esto previene que el atacante retire el dinero"
+        },
+        {
+          "time": "Esta semana",
+          "step": "Denuncia a Fiscalía por fraude: 088 o fiscalia.gob.mx. Proporciona: links a campaña, pruebas de que NO eres tú, cantidad recaudada",
+          "resource": "Delito federal por estafa"
+        },
+        {
+          "time": "Esta semana",
+          "step": "Contacta PROFECO (Procuraduría del Consumidor) si hay transacciones en tu tarjeta: profeco.gob.mx o 5568 8000",
+          "resource": "Protección al consumidor digital"
+        },
+        {
+          "time": "Próximas semanas",
+          "step": "Sigue el caso: mantén registro de números de denuncia, correos con autoridades, capturas de pantalla",
+          "resource": "Necesitarás esto si presentas demanda civil"
+        }
+      ]
+    },
+    "phishing": {
+      "type": "Phishing (email/SMS falso)",
+      "severity": "ALTA",
+      "icon": "🎣",
+      "description": "Recibiste un email o mensaje haciéndose pasar por un banco/empresa para robar datos",
+      "actions": [
+        {
+          "time": "HOY",
+          "step": "NO hagas click en el link: no respondas el email, no descargues adjuntos. Reporta como spam/phishing.",
+          "resource": "Gmail: click en los 3 puntos → reportar phishing"
+        },
+        {
+          "time": "HOY",
+          "step": "Contacta directamente al banco: llama al número que está en tu tarjeta (no uses el teléfono del email) y confirma si el mensaje fue real",
+          "resource": "Los bancos legítimos NUNCA piden datos por email"
+        },
+        {
+          "time": "Esta semana",
+          "step": "Cambia contraseñas: de email, banca en línea, y cualquier cuenta que uses regularmente",
+          "resource": "Crea contraseñas únicas por sitio"
+        },
+        {
+          "time": "Esta semana",
+          "step": "Activa 2FA (autenticación de dos factores) en tu email y cuentas bancarias",
+          "resource": "Hace más difícil el acceso incluso si la contraseña se filtra"
+        },
+        {
+          "time": "Próximas semanas",
+          "step": "Monitorea tu cuenta: revisa movimientos irregulares, transacciones que no reconoces",
+          "resource": "Si encuentras fraude, denuncia inmediatamente al banco"
+        }
+      ]
+    },
+    "ransomware": {
+      "type": "Ransomware (tu dispositivo encriptado)",
+      "severity": "URGENTE",
+      "icon": "🔒",
+      "description": "Tu computadora/teléfono está encriptado y piden dinero para liberarlo",
+      "actions": [
+        {
+          "time": "INMEDIATO",
+          "step": "DESCONECTA de internet: quita el wifi/cable Ethernet AHORA. Esto frena la propagación.",
+          "resource": "Cada segundo cuenta"
+        },
+        {
+          "time": "HOY",
+          "step": "NO pagues: la mayoría de pagos no recuperan tus archivos. Denunciar es la opción real.",
+          "resource": "Contacta a Fiscalía: 088"
+        },
+        {
+          "time": "HOY",
+          "step": "Recupera desde backup: si tienes un backup anterior a la infección, restaura desde ahí (en otra computadora segura)",
+          "resource": "Siempre haz backups — en USB externo o nube"
+        },
+        {
+          "time": "Esta semana",
+          "step": "Pasa antivirus: descarga Malwarebytes (versión gratuita) en USB limpio, ejecuta escaneo profundo",
+          "resource": "malwarebytes.com"
+        },
+        {
+          "time": "Próximas semanas",
+          "step": "Apunta lo que aprendiste: ¿cómo llegó el ransomware? (email, descarga, red comprometida?) Para prevenir la próxima vez",
+          "resource": "Educación es la mejor defensa"
+        }
+      ]
+    },
+    "breach_data": {
+      "type": "Tus datos en un filtrado masivo",
+      "severity": "ALTA",
+      "icon": "📊",
+      "description": "Tu email, teléfono, o CURP fue expuesto en una filtración de datos de empresa/gobierno",
+      "actions": [
+        {
+          "time": "HOY",
+          "step": "Verifica: entra a haveibeenpwned.com y busca tu email. Confirma qué datos se filtraron.",
+          "resource": "Sitio gratuito de Troy Hunt"
+        },
+        {
+          "time": "HOY",
+          "step": "Cambia contraseña: en todos los sitios donde usaste la MISMA contraseña que en la cuenta que se filtró",
+          "resource": "Usa gestor de contraseñas para generar únicas"
+        },
+        {
+          "time": "Esta semana",
+          "step": "Activa alertas: en Gmail/Yahoo/Hotmail, activa notificaciones de inicio de sesión desde ubicaciones nuevas",
+          "resource": "Configuración → Seguridad"
+        },
+        {
+          "time": "Esta semana",
+          "step": "Si tu CURP fue filtrado: denuncia en INAI (instituto nacional de transparencia) — tienes derecho a protección de datos",
+          "resource": "inai.org.mx — formulario de denuncia"
+        },
+        {
+          "time": "Próximas semanas",
+          "step": "Monitorea movimientos: revisa créditos, correos sospechosos, intentos de acceso a cuentas",
+          "resource": "Vigilancia constante = defensa"
+        }
+      ]
+    }
+  },
+  "mexico_resources": {
+    "emergency": {
+      "name": "Fiscalía General de la República (Delitos Cibernéticos)",
+      "phone": "088",
+      "url": "fiscalia.gob.mx",
+      "hours": "24/7",
+      "description": "Denuncia de delitos cibernéticos: fraude, suplantación, robo de datos"
+    },
+    "data_protection": {
+      "name": "INAI (Instituto Nacional de Transparencia, Acceso a Información y Protección de Datos)",
+      "phone": "800-835-4324",
+      "url": "inai.org.mx",
+      "hours": "Lunes-Viernes 9am-6pm",
+      "description": "Si tus datos personales fueron filtrados o mal usados por empresa/gobierno"
+    },
+    "consumer_protection": {
+      "name": "PROFECO (Procuraduría Federal del Consumidor)",
+      "phone": "5568-8000 o 01-800-468-8000",
+      "url": "profeco.gob.mx",
+      "hours": "Lunes-Viernes 9am-6pm",
+      "description": "Si sufriste fraude en compras online, transacciones con tarjeta, dinero digital"
+    },
+    "banking": {
+      "name": "CNBV (Comisión Nacional Bancaria y de Valores)",
+      "phone": "5001-9000",
+      "url": "cnbv.gob.mx",
+      "hours": "Lunes-Viernes 9am-6pm",
+      "description": "Para reportar fraude bancario o robo en cuentas de inversión"
+    },
+    "legal_aid": {
+      "name": "Consultoría Jurídica Gratuita (Ibero/UNAM)",
+      "phone": "Varía por institución",
+      "url": "derecho.ibero.mx / derecho.unam.mx",
+      "hours": "Horario universitario",
+      "description": "Asesoría legal gratuita en ciberseguridad y delitos digitales"
+    }
+  }
+}
